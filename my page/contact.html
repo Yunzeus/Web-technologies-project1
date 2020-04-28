@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>*{text-align: center;}
+      .x{
+          color: rgb(255, 255, 255);
+          font-size: 24px;
+      }
+        body{
+            margin: 0;
+            padding: 0;
+            
+            background:url(123.png)no-repeat;
+            background-size:cover;
+        }
+        .box{
+            width:450px;
+            background:rgba(17, 13, 13, 0.4);
+            padding: 40px;
+        text-align: center; 
+        margin: auto;
+        margin-top: 5%;
+        color: white;
+        font-family: 'Century Gothic'sans-serif;
+        }
+    </style>
+    
+
+<script type="text/javascript">
+
+    {
+    if(document.getElementById("ad").value=="")
+        {
+        alert("Ad boş!");
+        }
+    else if(document.getElementById("soyad").value=="")
+        {
+        alert("Soyad boş!");
+        }
+    else
+        {
+        alert("Hepsi Dolu...");
+        }
+    }
+    
+    </script>
+    
+</head>
+<body><div class="box">    
+<i class="fa fa-phone" style="font-size:48px;color:rgb(148, 156, 184)"></i><div><span class="x">//+90 507 832 96 32</span></div><br>
+<i class="material-icons" style="font-size:48px;color:rgb(187, 169, 169)">email</i><div class="x">//akgulyns34@gmail.com</div>
+<i class="fa fa-home" style="font-size:48px;color:rgb(179, 163, 163)"></i><div class="x"> //Sakarya / Serdivan / Türkiye</div>
+</div>
+
+
+<form id="frm">
+    <input type="text"  id="ad" /> Ad: </br>
+    <input type="text"  id="soyad" /> Soyad: </br>
+    <input type="button" value="gönder" onclick="islem()" />
+    </form>
+</body>
+</html>
