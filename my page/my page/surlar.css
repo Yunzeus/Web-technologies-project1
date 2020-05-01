@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+    background:url(unnamed.jpg)no-repeat;
+    background-size:cover;
+}p{color: rgb(252, 193, 0);}
+        .box{
+                    width:1500px;
+                    background:rgba(78, 65, 65, 0.4);
+                    padding: 1px;
+                text-align: left; 
+                margin: auto;
+                margin-top: 5%;
+                color: rgb(207, 144, 8);
+                font-family: 'Century Gothic'sans-serif;
+                }
+                
+  .as{
+  border: 2px solid rgb(255, 238, 0);
+  padding: 10px;
+  border-radius: 50px 20px;}

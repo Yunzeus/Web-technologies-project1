@@ -1,0 +1,39 @@
+
+body{
+    background-color:gold;
+}
+.x{text-align:center;}
+
+.ornek{
+width: 900px;
+margin:auto;
+}
+.sola-kaydir{
+float:left;
+padding:0 10px 10px 0;
+}
+table tr{
+    border: 1px solid #ddd;
+    padding: 6px;
+}
+table{
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+
+table{border: 2px  solid yellow;}tr{border: 2px rgb(71, 54, 54) solid;}
+
+.box{
+    width:450px;
+    background:rgba(58, 42, 42, 0.4);
+    padding: 40px;
+text-align: center; 
+margin: auto;
+margin-top: 5%;
+color: white;
+font-family: 'Century Gothic'sans-serif;
+}  .as{
+border: 2px solid rgb(253, 3, 3);
+padding: 10px;
+border-radius: 50px 20px;}

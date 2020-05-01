@@ -1,0 +1,49 @@
+<style>
+  .as{
+  border: 2px solid rgb(11, 120, 223);
+  padding: 10px;
+  border-radius: 50px 20px;}
+.box{
+            width:1500px;
+            background:rgba(0,0,0,0.4);
+            padding: 1px;
+        text-align: left; 
+        margin: auto;
+        margin-top: 5%;
+        color: white;
+        font-family: 'Century Gothic'sans-serif;
+        }
+    h1{
+        text-align: center;
+    }
+    *{text-align: center;}
+    table{
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table th{text-align: left;
+        background-color: #ff7300;
+        color: honeydew;
+        }
+        table td,table th{
+            border: 1px solid #ddd;
+            padding: 6px;
+        }
+        table tr:nth-child(odd){
+            background-color: #f2f2f2;
+        }
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+
+body{
+            margin: 0;
+            padding: 0;
+            
+            background:url(123.png)no-repeat;
+            background-size:cover;
+        }  .as{
+  border: 2px solid rgb(11, 120, 223);
+  padding: 10px;
+  border-radius: 50px 20px;}
+</style>

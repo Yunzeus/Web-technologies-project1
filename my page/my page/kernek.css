@@ -1,0 +1,31 @@
+
+        
+  .as{
+  border: 2px solid rgb(30, 255, 0);
+  padding: 10px;
+  border-radius: 50px 20px;}
+        .box{
+                    width:500px;
+                    background:rgba(45, 58, 38, 0.4);
+                    padding: 31px;
+                text-align: left; 
+                margin: auto;
+                margin-top: 5%;
+                color: white;
+                font-family: 'Century Gothic'sans-serif;
+                }
+        body{
+                    margin: 0;
+                    padding: 0;
+                
+                    background:url(20d3bf1b-807c-4604-9bd8-7d3778bf993a.jpg)no-repeat;
+                    background-size:cover;
+                }
+                body{
+            margin: 0;
+            padding: 0;
+            
+            background:url(img-3.jpg)no-repeat;
+            background-size:cover;
+        }
+               
