@@ -1,7 +1,4 @@
 
-body{
-    background-color:gold;
-}
 .x{text-align:center;}
 
 .ornek{
@@ -20,6 +17,7 @@ table{
         width: 100%;
         border-collapse: collapse;
     }
+    
 
 
 table{border: 2px  solid yellow;}tr{border: 2px rgb(71, 54, 54) solid;}
@@ -37,3 +35,4 @@ font-family: 'Century Gothic'sans-serif;
 border: 2px solid rgb(253, 3, 3);
 padding: 10px;
 border-radius: 50px 20px;}
+.d{width: 900;}

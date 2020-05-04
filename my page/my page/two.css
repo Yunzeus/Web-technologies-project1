@@ -1,11 +1,11 @@
-<style>
+
   .as{
   border: 2px solid rgb(11, 120, 223);
   padding: 10px;
   border-radius: 50px 20px;}
 .box{
             width:1500px;
-            background:rgba(0,0,0,0.4);
+            background:rgba(0, 0, 0, 0.4);
             padding: 1px;
         text-align: left; 
         margin: auto;
@@ -40,10 +40,9 @@ body{
             margin: 0;
             padding: 0;
             
-            background:url(123.png)no-repeat;
-            background-size:cover;
+            background:url(img-3.jpg)no-repeat;
+            background-size: cover;
         }  .as{
   border: 2px solid rgb(11, 120, 223);
   padding: 10px;
   border-radius: 50px 20px;}
-</style>
