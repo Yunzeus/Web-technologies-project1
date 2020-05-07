@@ -18,13 +18,20 @@ table{
         border-collapse: collapse;
     }
     
+body{
+  
+    background-image: url('Malatyaspor.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
 
 
 table{border: 2px  solid yellow;}tr{border: 2px rgb(71, 54, 54) solid;}
 
 .box{
     width:450px;
-    background:rgba(58, 42, 42, 0.4);
+    background:rgba(14, 14, 14, 0.4);
     padding: 40px;
 text-align: center; 
 margin: auto;

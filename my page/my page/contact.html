@@ -35,12 +35,51 @@
     <a href="main.html" class="active y">Home</a>
     
     <a href="contact.html">Login</a>
+    <a href="form.html">İletişim</a>
     <a href="miras.html">Miras</a>
     <a href="two.html">Şehrim</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
       <i class="fa fa-bars"></i>
     </a>
   </div>
+  <form id="frm" class="box as o"action="form_oku.php" method="post">
+          <div class="container" id="form1">
+            <form action="form_oku.php" name="myForm" class="needs-validation" onsubmit = "return validate();"  method="POST">
+            <div class="form-row my-3">Email: CC@hotmail.com   Şifre: 123
+            </div>
+            <div class="form-row my-3">
+              <div class="col-lg-4 my-3">
+                <label for="email">Email:</label>
+                <input type="text" class="form-control" name="email" id="email" onchange="emailV();">
+                <div class="valid-feedback">
+                  Kriterlere uyuyor
+                </div>
+                <div class="invalid-feedback">
+                  Alan boş yada Girdiğiniz bilgiler E mail formatında DEĞİL!!
+                </div>
+              </div>
+            </div>
+            <div class="form-row my-3">
+              <div class="col-lg-4 mb-3">
+                <label for="password">Şifre:</label>
+                <input type="password"class="form-control" name="sifre" onchange="sifreV();">
+                <div class="invalid-feedback">
+                  Alan boş yada Şifre rakamdan başka karakter içeriyor
+                </div>
+                <div class="valid-feedback">
+                  Kriterlere Uyuyor
+                </div>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-lg-12 mb-3">
+                <input type="submit"  class="btn btn-primary" value="Gonder">
+              </div>
+            </div>        
+            </form>
+          </div>
+        </section>
+  
     
     <script src="validation.js"></script>
     <script src="changeValidate.js"></script><div class="box as">    
@@ -50,152 +89,6 @@
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96722.94269442384!2d30.312253976115045!3d40.74900328053716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14ccb2fad58e639f%3A0xb84f12f8c14f1221!2sSakarya!5e0!3m2!1str!2str!4v1588349249710!5m2!1str!2str" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 </div>
 
-
-<form id="frm" class="box as o"action="form_oku.php" method="post">
-        <div class="container" id="form1">
-          <form action="form_oku.php" name="myForm" class="needs-validation" onsubmit = "return validate();"  method="POST">
-          <div class="form-row my-3">Email: CC@hotmail.com   Şifre: 123
-          </div>
-          <div class="form-row my-3">
-            <div class="col-lg-4 my-3">
-              <label for="email">Email:</label>
-              <input type="text" class="form-control" name="email" id="email" onchange="emailV();">
-              <div class="valid-feedback">
-                Kriterlere uyuyor
-              </div>
-              <div class="invalid-feedback">
-                Alan boş yada Girdiğiniz bilgiler E mail formatında DEĞİL!!
-              </div>
-            </div>
-          </div>
-          <div class="form-row my-3">
-            <div class="col-lg-4 mb-3">
-              <label for="password">Şifre:</label>
-              <input type="password"class="form-control" name="sifre" onchange="sifreV();">
-              <div class="invalid-feedback">
-                Alan boş yada Şifre rakamdan başka karakter içeriyor
-              </div>
-              <div class="valid-feedback">
-                Kriterlere Uyuyor
-              </div>
-            </div>
-          </div>
-          <div class="form-row">
-            <div class="col-lg-12 mb-3">
-              <input type="submit"  class="btn btn-primary" value="Gonder">
-            </div>
-          </div>        
-          </form>
-        </div>
-      </section>
-      
-<div class="box" style="
-border: 2px solid rgb(11, 120, 223);
-padding: 10px;
-border-radius: 50px 20px";>
-      <section class="">
-        <div class="container" id="form1">
-          <form action="formoku2.php" name = "myForm" class="needs-validation" onsubmit ="return validate();" method="POST" >
-          <div class="form-row my-3 ">
-            <div class="col-lg-4 my-3">
-              <label for="name">Kullanıcı Adı:</label>
-              <input type="text"class="form-control" name="ad" id="name" >
-            </div>
-            <div class="col-lg-4 my-3">
-              <label for="email">Email:</label>
-              <input type="text" class="form-control " name="email"  onchange="emailV();">
-              <div class="valid-feedback">
-                Kriterlere uyuyor
-              </div>
-              <div class="invalid-feedback">
-                Alan boş yada Girdiğiniz bilgiler E mail formatında DEĞİL!!
-              </div>
-            </div>
-            <div class="col-lg-4 my-3">
-              <label for="password">Şifre:</label>
-              <input type="password"class="form-control " name="sifre" onchange="sifreV();">
-              <div class="invalid-feedback">
-                Alan boş yada Şifre rakamdan başka karakter içeriyor
-              </div>
-              <div class="valid-feedback">
-                Kriterlere Uyuyor
-              </div>
-            </div>
-          </div>
-          <div class="form-row">
-            <div class="col-lg-6 my-3">
-              <div class="form-row">
-                <h6 >Hobileriniz</h6>
-              </div>
-              <div class="form-row ">
-                <div class="col-md-3 custom-control custom-checkbox ml-4">
-                  <input class="custom-control-input" type="checkbox" name="sports[]" value="Video oyunu" id="vgame">
-                  <label class="custom-control-label" for="vgame"> Video Oyunu </label>
-                </div>
-                <div class="col-md-2 custom-control custom-checkbox ml-4">
-                  <input class="custom-control-input" type="checkbox" name="sports[]" value="Müzik" id="music">
-                  <label class="custom-control-label" for="music"> Müzik </label>
-                </div>
-                <div class="col-md-2 custom-control custom-checkbox ml-4">
-                  <input class="custom-control-input" type="checkbox" name="sports[]" value="Film" id="film">
-                  <label class="custom-control-label" for="film"> Film </label>
-                </div>
-                <div class="col-md-2 custom-control custom-checkbox ml-4">
-                  <input class="custom-control-input" type="checkbox" name="sports[]" value="Gezi" id="gezi">
-                  <label class="custom-control-label" for="gezi"> Gezi </label>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6 my-3">
-              <div class="form-row">
-                <h6>En sevdiğiniz programlama dili</h6>
-              </div>
-              <div class="form-row">
-                <div class="col-md-3 custom-control custom-radio ml-4">
-                  <input type="radio" id="js" name="language" class="custom-control-input" value="javascript" checked>
-                  <label class="custom-control-label" for="js">javascript</label>
-                </div>
-                <div class="col-md-2 custom-control custom-radio ml-4">
-                  <input type="radio" id="c++" name="language" class="custom-control-input" value="c++">
-                  <label class="custom-control-label" for="c++">C++</label>
-                </div>
-                <div class="col-md-2 custom-control custom-radio ml-4">
-                  <input type="radio" id="c#" name="language" class="custom-control-input" value="c#">
-                  <label class="custom-control-label" for="c#">c#</label>
-                </div>
-                <div class="col-md-2 custom-control custom-radio ml-4">
-                  <input type="radio" id="python" name="language" class="custom-control-input" value="python">
-                  <label class="custom-control-label" for="python">Python</label>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="form-row">
-            <div class="col-lg-12 my-3">
-              <label for=addres>Adres</label>
-                <textarea class="form-control" name="addres" id="addres">
-                </textarea>
-            </div>
-          </div>
-          <div class="form-row">
-            <div class="col-lg-6 my-3">
-              <label for="sehir">Yaşadınız şehir</label>
-              <select name="sehirler"class="form-control" id="sehir">
-                <option value="Tokyo" >Tokyo</option>
-                <option value="Sakarya"selected>Sakarya</option>
-                <option value="San Fransisco">San Francisco</option>
-              </select> 
-            </div>
-          </div>  
-          <div class="form-row">
-            <div class="col-lg-12 mt-3 mb-5">
-              <input class="btn btn-primary" value="Temizle" type="reset">  
-              <input type="submit" class="btn btn-primary" value="Gonder">
-            </div>
-          </div>        
-          </form>
-        </div>
-      </section>
 
 
     </div>

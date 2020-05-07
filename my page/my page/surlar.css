@@ -1,10 +1,14 @@
+
+
 body{
-    margin: 0;
-    padding: 0;
-    
-    background:url(f577a9fd9eeec1f4253f097c117add27.jpg)no-repeat;
-    background-size:cover;
-}p{color: rgb(252, 193, 0);}
+  
+    background-image: url('lights-abstract-4k-0n.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+p{color: rgb(252, 193, 0);}
         .box{
                     width:1500px;
                     background:rgba(78, 65, 65, 0.4);

@@ -1,10 +1,12 @@
- body{
-            margin: 0;
-            padding: 0;
-            
-            background:url(lights-abstract-4k-0n.jpg)no-repeat;
-            background-size:cover;
-        }
+
+body{
+  
+    background-image: url('photo-1451337516015-6b6e9a44a8a3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
         .box{
             width:450px;
             background:rgba(0,0,0,0.4);
