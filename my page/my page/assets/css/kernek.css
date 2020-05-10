@@ -1,0 +1,23 @@
+
+        
+                body{
+                  
+                  background-image: url('assets/img/kek.jpg');
+                  background-repeat: no-repeat;
+                  background-attachment: fixed;
+                  background-size: 100% 100%;
+            }
+  .as{
+  border: 2px solid rgb(30, 255, 0);
+  padding: 10px;
+  border-radius: 50px 20px;}
+        .box{
+                    width:550px;
+                    background:rgba(45, 58, 38, 0.4);
+                    padding: 31px;
+                text-align: left; 
+                margin: auto;
+                margin-top: 5%;
+                color: white;
+                font-family: 'Century Gothic'sans-serif;
+                }
